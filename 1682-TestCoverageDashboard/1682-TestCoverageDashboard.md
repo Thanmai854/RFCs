@@ -17,7 +17,9 @@ The current test reporting system lacks interactive visualization capabilities. 
 ## **Proposed Implementation**
 
 ### Architecture
-A self-contained, single-file HTML dashboard that runs entirely in the browser with no backend dependencies. 
+A self-contained, single-file HTML dashboard that runs entirely in the browser with no backend dependencies.
+
+**Note on Implementation Approach**: As this dashboard is designed for internal usage within the development team, it has been developed as a single HTML file for simplicity, ease of deployment, and minimal infrastructure requirements. In the future, if this tool is extended for client-facing usage or requires more advanced features, it can be migrated to a framework-based application (e.g., React) to support better scalability, maintainability, and enhanced functionality.
 
 ### Features
 **Navigation Tabs:**
